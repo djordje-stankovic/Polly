@@ -1,0 +1,106 @@
+.container-fluid {
+    .newPool{
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-start;
+       .item{
+            display: row;
+            padding: 30px;
+            height: 20rem;
+            width: 50rem;
+            flex-wrap: wrap;
+        }
+        .item-answer{
+            display: inline-block;
+            flex-wrap: wrap;     
+            align-items: center;
+            padding: 4px;
+        }
+        .item-newAnswer{
+            display: inline-block;           
+            flex-wrap: wrap; 
+            padding: 7px;
+            width: 20rem;
+            align-items: center;
+            justify-content: space-around;
+            align-items: center;
+            .question-label{
+                text-align: center;
+            }
+            .input{
+                width: 19rem;
+                color: green;
+                text-align: center;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                border-color: white;
+                border-inline-start-width: 0ch;
+                border-top-width: 0ch;
+                border-bottom-color: green;
+                border-bottom-style: solid 2px;
+                font-weight: 500;
+                &:focus{
+                    outline: none;
+                    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+                    border-bottom: 3px solid green;
+                    font-weight: 500;
+                  }
+            }
+        }
+        .question-input{
+            width: 19rem;
+            color: green;
+            text-align: center;
+            width: 90%;
+            height: 3rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            border-color: white;
+            border-inline-start-width: 0ch;
+            border-top-width: 0ch;
+            border-bottom-color: green;
+            border-bottom-style: solid 2px;
+            font-weight: 500;
+            &:focus{
+                outline: none;
+                box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+                border-bottom: 3px solid green;
+                font-weight: 500;
+              }
+        }
+    }
+}
+.container{
+    .newAnswers{
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+} 
+.card{
+    margin-left: 10rem;
+}
+.row{
+    .empty-new{
+        display: block;
+        text-align: center;
+
+        .h1{
+        display: inline-block;
+        }       
+    }
+}
+
+.center{
+    margin-left: 13rem;
+}
+
+
+
+
+
+

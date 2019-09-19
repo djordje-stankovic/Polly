@@ -1,0 +1,59 @@
+.row{
+    margin: 1rem 1rem 1rem 1rem;
+    .col-6{
+        max-width: 47%;
+    }
+}
+.card{
+    width: 100%;
+    margin-left: 10rem;
+    text-align: left;
+    border: 0;
+    display: inline-block;
+    .head{
+        border: 0;
+        margin-left: 0;
+        border-bottom: 1px solid;
+        border-bottom-color: green;
+        border-radius: 0%;
+        font-weight: 700;        
+    }
+    .body{
+        border: 0;
+        margin-left: 0;
+    }
+    .body-question{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-left: 0;
+        margin: 0;
+        border: 1px;
+        // border-left-color: white;
+        // border-right-color: white;
+        .button{
+            width: 1rem;
+            background-color: rgb(206, 206, 206);
+            margin-left: 0;
+            position: relative;
+            display: inline-block;
+            text-decoration: none;
+            border-left-color: red;
+            border-right-color: red;
+            height: 1rem;
+            text-align: center;
+            margin-top: 1rem;
+            color: black;
+            font-weight: 500;
+            border-radius: 10%;
+            padding-top: 0.7rem;
+            &:focus{
+                background-color: rgb(30, 172, 42);    
+            }
+        }
+    }
+    .body-question-row{
+        display: inline-block;
+        margin-left: 0;
+    }
+}

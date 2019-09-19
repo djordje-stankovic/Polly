@@ -1,0 +1,37 @@
+@import './scss/login.scss';
+@import './scss/answer-batton.scss';
+@import './scss/pool.scss';
+@import './scss/new-pool.scss';
+
+
+
+
+
+.container{
+  margin: 3rem 3rem 3rem 3rem;
+
+}
+.container-fluid{
+  margin: 1rem 3rem 3rem 3rem;
+
+}
+.answers-row{
+  position: relative;
+  margin: 2;
+}
+.questionName-row{
+&.h2{
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 10rem;
+}
+.questionName-row {
+  
+  .text{
+  text-align: center;
+  text-transform: uppercase;
+  }
+}
+  
+}
